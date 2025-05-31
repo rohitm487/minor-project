@@ -1,11 +1,11 @@
 
 # Minor Project: Structured Reasoning with Proof Systems
 
-This project implements a novel framework for modeling formal reasoning using traditional Indian epistemic sources (Pramāṇas) and maps them onto modern reasoning styles such as deductive, inductive, and abductive logic. It leverages the `meta-Llama-3.1-8B-Instruct` model from Meta using Unsloth's lightweight fine-tuning and evaluation tools.
+This project implements a novel framework for modeling formal reasoning using traditional proofs and maps them onto modern reasoning styles such as deductive, inductive, and abductive logic. It leverages the `meta-Llama-3.1-8B-Instruct` model from Meta using Unsloth's lightweight fine-tuning and evaluation tools.
 
 **GitHub Repository**: [https://github.com/rohitm487/minor-project](https://github.com/rohitm487/minor-project)
 
-## 📜 Overview
+## Overview
 
 The project combines Indian epistemology and machine reasoning to:
 
@@ -55,11 +55,11 @@ Final numeric/textual answer here.
 </SOLUTION>
 ```
 
-## 🧠 Dataset
+## Dataset
 
 We use the [GSM8K](https://huggingface.co/datasets/openai/gsm8k) dataset for grade-school math reasoning problems, reformatted into structured prompt-response pairs.
 
-## 🛠️ Installation
+## Installation
 
 Clone the repository:
 
@@ -76,7 +76,7 @@ pip install --no-deps bitsandbytes accelerate xformers==0.0.29.post3 peft trl==0
 pip install sentencepiece protobuf datasets huggingface_hub hf_transfer
 ```
 
-## 🧪 Inference & Evaluation
+## Inference & Evaluation
 
 * Model: `meta-llama/meta-Llama-3.1-8B-Instruct`
 * Max sequence length: 1024
